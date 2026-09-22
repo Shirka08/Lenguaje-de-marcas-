@@ -29,11 +29,13 @@ Coge un texto normal y le da formato, como ponerlo en negrita, cursiva, insertar
    sudo apt install git 
    ```
 
-4.  Crear repositorio añadir codigo y hacer commit
-   
-
- 
- 
+4.  Crear repositorio git
+   ```bash
+git int
+git add .
+git commit
+´´´
+5.  
  ### Plugins instalados
 
  |Imagen|Nombre|Para que se usa|
