@@ -33,8 +33,8 @@ Coge un texto normal y le da formato, como ponerlo en negrita, cursiva, insertar
    ```bash
 git int
 git add .
-git commit
-´´´
+git commit ´´´
+
 5.  
  ### Plugins instalados
 
