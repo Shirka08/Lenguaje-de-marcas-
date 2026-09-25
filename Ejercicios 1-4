@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Ejercicios UD2<title></title>
+    </head>
+    <body>
+         
+
+      <h1> Ejercicio UD2</h1>
+
+         <p>-1º Parrafo<p><!__Comentario__>
+
+         <p>-2º Parrafo<p><!__Comentario__>
+
+         <p>-3º Parrafo<p><!__Comentario__>
+
+         <p>-4º Parrafo<p><!__Comentario__>
+
+         <p>Parrafo de prueba:Las etiquetas que hemos aprendido hasta ahora son las que forman la estructura básica de un documento html: &lthtml&lt, <&lthead&lt>, <&lttitle&lt> y <&ltbody&lt>. También hemos aprendido a comentar nuestras páginas con las etiquetas <&lt!-- y --> <&lt/p&lt>
+    
+    </body> 
