@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Formulario de incidencia</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form action='incidencia.php' method='get'>
+        <br>
+        <fieldset>
+        <label for='nombre'>Datos del usuario</label>
+        </br>
+        <label for='nombre'>Usuario:</label>
+        <input type='text' id='nombre' name='nombre' placeholder='Nombre completo'>
+        <br>
+        <input type='radio' name='Categoria' value='Alumno'/>Alumno<br/>
+        <input type='radio' name='Categoria' value='Profesor'/>Profesor<br/>
+        </br> 
+        </fieldset>
+        <fieldset>
+        <label for="Lugar">Donde se produce</label>
+        <br>
+        <input type="radio" name="Lugar" value="Todo el departamento"/>Todo el departamento<br>
+        <input type="radio" name="Lugar" value="Todo el aula"/>Todo el aula<br>
+        <input type="radio" name="Lugar" value="Solo en un equipo" checked="cheked"/>Solo en un equipo<br>
+        <label for="Equipo">Identifica el dpt, aula o equipo</label>
+        <input type="text id="Equipo" name="Equipo">
+        </br>
+        </fieldset>
+        <fieldset>
+        <br>
+        <label for="Información sobre la incidencia">Información sobre la incidencia</label>
+        <textarea name="comentario" rows="5" cols="40" placeholder="Describe el problema en detalle"></textarea>
+        </br>
+        <br>
+        <label for="Nivel de urgencia">Nivel de urgencia</label>
+        </br>
+        <input type="radio" name="Nivel de urgencia" value="Alta"/>Alta<br>
+        <input type="radio" name="Nivel de urgencia" value="Media"/>Media<br>
+        <input type="radio" name="Nivel de urgencia" value="Baja"/>Baja<br>
+        </br>
+        <br>
+        <label for="Me gustaria ser avisado por email cuando se resuelva la incidencia">Me gustaria ser avisado por email cuando se resuelva la incidencia</label>
+        <input type="checkbox" name="Aviso"<br>
+        </br>
+        </fieldset>
+        <input type='submit' value='Enviar'>
+        <input type='reset' value='Borrar'>
+    </form>
+</body>
+</html>

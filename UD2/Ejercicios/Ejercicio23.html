@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Validación de usuario</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form action='servicio.php' method='get'>
+        <label for='usuario'>Usuario:</label>
+        <input type='text' id='usuario' name='usuario' placeholder='10 max' maxlength='10'>
+        <br>
+        <label for='contrasena'>Contraseña:</label>
+        <input type='password' id='contrasena' name='contrasena' maxlength='12'>
+        <br>
+        <input type='submit' value='Enviar'>
+        <input type='reset' value='Borrar'>
+    </form>
+</body>
+</html>
