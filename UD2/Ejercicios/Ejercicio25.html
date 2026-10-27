@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Reserva de habitacion</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form action='reserva.php' method='get'>
+        <br>
+        <fieldset>
+        <label for='nombre'>Datos del solicitante</label>
+        </br>
+        <br>
+        <label for='nombre'>Nombre del solicitante de la reserva</label>
+        <input type='text' id='nombre' name='nombre' >
+        </br>
+        <br>
+        <label for='telefono'>Telefono de contacto de la persona solicitante</label>
+        <input type='text' id='telefono' name='telefono' >
+        </br>
+        </fieldset>
+        <fieldset>
+        <label for="Lugar">Datos de la reserva</label>
+        <br>
+        <label for='Habitacion'>Habitacion:</label>
+        <select name="Habitacion">
+            <option value="Individual">azul</option>
+            <option value="Doble">amarilla</option>
+            <option value="Suite">morada</option>
+            <option value="Suite">verde</option>
+        </br>
+        </select>
+        <br>
+        <label for='Ocupacion'>Ocupacion:</label>
+        <select name="Ocupacion">
+            <option value="Individual">Individual</option>
+            <option value="Doble" selected >Doble</option>
+        </br>
+        </select>
+        <br>
+        <label for='Provincia'>Provincia:</label>
+        <select name="Provincia">
+            <optgroup label="Galicia">
+                <option value="A Coruña">A Coruña</option>
+                <option value="Lugo">Lugo</option>
+                <option value="Asturias">Orense</option>
+                <option value="Pontevedra">Pontevedra</option>
+            </optgroup>
+            <optgroup label="País Vasco">
+                <option value="Vizcaya">Vizcaya</option>
+                <option value="Guipuzcoa">Guipuzcoa</option>
+                <option value="Álava">Álava</option>
+            </optgroup>
+            
+        </select>
+        </fieldset>
+    </form>
+</body>
+</html>
