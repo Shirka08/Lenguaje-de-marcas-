@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Apuntes</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <h1 id="Inicio">Tamaños de letra</h1>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+<h1 id="Cosas">Cosas</h1>
+<p>Para saltar de linea en un mismo parrafo se usa (br/)<br/>
+y saltas</p>
+<p>Esto es un Parrafo(p)</p>
+<p>(hr/) crea una linea horizontal</p>
+<hr/>
+<!-- Esto es un comentario, no sale en el documento -->
+ <h1 id="Etiquetas">Etiquetas</h1>
+ <p><b>Negrita(b)</b></p>
+ <p><strong>Negrita con importancia(strong)</strong></p>
+ <p><i>Cursiva(i)</i></p>
+ <p><em>Cursiva con importancia(em)</em></p>
+ <p>(& l t ;)Esto es un signo de menor que</p>
+ <p>(& g t ;)Esto es un signo de mayor que</p>
+<p><small>Esto es un texto pequeño(small)</small></p>
+<pre> Esto es un texto preformateado(pre)
+    h 
+         o    
+              l
+                  a </pre>
+
+
+</pre>
+<p><del>Esto es un texto tachado(del)</del></p>
+<p><ins>Esto es un texto subrayado(ins)</ins></p>
+<p><cite>Esto es un texto citado(cite)</cite></p>
+<p><q>Esto es un texto entre comillas(q)</q></p>
+<p><mark>Esto es un texto subrayado(mark)</mark></p>
+<p><span style="color:aqua">Puedes elegir el color que quieras(span style="color:(elige color))</span></p>
+<p>(sub) Crea un subindice: H<sub>2</sub>O</p>
+<p>(sup) Crea un superindice: 10<sup>2</sup></p>
+
+<h1 id="Abreviaturas">Abreviaturas</h1>
+<p>(abbr lang="es" title="Pones la definición aquí">Aqui sale la sigla>/abbr).<br/>Poniendo el raton encima te sale la definición.<br/>Ejemplo: <abbr lang="es" title="Alta Velocidad Española">AVE</abbr></p>
+<h1>Definiciones</h1>
+<p>(dfn title="Definición">Término< /dfn)<br/>Poniendo el raton encima te sale la definición.<br/>Ejemplo: <dfn title="tonto">Kenshin</dfn></p>
+<h1 id="Listas">Listas</h1>
+<h3>Lista desordenada (ul)</h3>
+<ul>
+    <li>Elemento 1(li)</li>
+    <li>Elemento 2(li)</li>
+    <li>Elemento 3(li)</li>
+</ul>
+<h3>Lista ordenada (ol)</h3>
+<ol>
+    <li>Elemento 1(li)</li>
+    <li>Elemento 2(li)</li>
+    <li>Elemento 3(li)</li>
+</ol>
+<h3>Lista de definiciones (dl)</h3>
+<dl>
+    <dt>Termino 1(dt)</dt>
+    <dd>Definición 1(dd)</dd>
+    <dt>Termino 2(dt)</dt>
+    <dd>Definición 2(dd)</dd>
+</dl>
+<hr/>
+<h3>Fusion de listas</h3>
+<ul>(ul)
+    <li>Elemento 1(li)</li>
+    <li>Elemento 2(li)</li>
+    <li>Elemento 3(li)</li>
+    <ol>(ol)
+        <li>Elemento 1(li)</li>
+        <li>Elemento 2(li)</li>
+        <li>Elemento 3(li)</li>
+    </ol>(/ol)
+</ul>(/ul)
+
+<h3>Listas dobles</h3>
+<ul>(ul)
+    <li>Elemento 1(li)</li>
+    <li>Elemento 2(li)</li>
+    <li>Elemento 3(li)</li>
+    <ul>(ul)
+        <li>Elemento 1(li)</li>
+        <li>Elemento 2(li)</li>
+        <li>Elemento 3(li)</li>
+    </ul>(/ul)
+</ul>(/ul)
+
+<h1 id="Enlaces">Enlaces</h1>
+<p>(a href="URL*" De que va el enlace /a)<br/>*Puedes ponerle (title=) Para especificar informacion adicional<br/>Ejemplo: <a href="https://www.google.com">Google</a><br/>*Los enlaces tambien puedes dar a paginas creadas por ti en <abbr lang="es" title="Visual Studio Code">VSC</abbr></p>
+  <hr/>
+  <h3>Otros atributos</h3>
+  <p>Dentro de las comillas de la URL puedes poner las distintas etiquetas:(target=)
+    <ul>
+        <li>("_blank") para abrir el enlace en una nueva pestaña</li>
+        <li>("_self") para abrirlo en la misma ventana</li>
+        <li>("_parent") para un marco primario</li>
+        <li>("_top") para el cuerpo entero de la ventana</li>
+    </ul>
+  </p>
+<h1 id="Imagenes">Imagenes</h1>
+<p>&lt;img src="Enlace de la imagen" alt="Nombre" whidth="ancho" height="alto"/&gt;(La imagen)<br/>*Si pones (figure) antes de la imagen y (/figure) despues puedes poner un (figcaption) que sirve como pie de imagen, para escribir algo (/figcaption)</p>
+<hr/>
+<h3>Imagen que pasa a un link</h3>
+<p>&lt;a href="Pones el link"&gt;&lt;img src="Enlace de la imagen" alt="que es" whidth="ancho" height="alto"/&gt;&lt;/a&gt;</p>
+<h3>Mapa de imagenes</h3>
+<ul>
+    <li>Rectangulo</li>
+    <ul>
+    <li>&lt;area shape="rect" coords="Coordenadas" href="link al que quieres ir al clicar  la imagen"/&gt;</li>
+    </ul>
+    <li>Circulo</li>
+    <ul>
+        <li>&lt;area shape=circle" coords="Coordenadas" href="link al que quieres ir al clicar la imagen"/&gt;</li>
+    </ul>
+    <li>Poligono</li>
+    <ul>
+        <li>&lt;area shape="polygon" coords="Coordenadas" href="link al que quieres ir al clicar la imagen"/&gt;</li>
+    </ul>
+    </ul>
+</ul>
+<p><b>*Para usarlo hay que poner antes:</b><br/>&lt;(la imagen)usemap="#Nombre de la imagen"&gt;<br/>&lt;map name="Nombre de la imagen"&gt;<br/>&lt;(lo de las areas)&gt;<br/>&lt;/map&gt;</p>
+<h1 id="Tablas">Tablas</h1>
+<h3>Se tiene que hacer esto:</h3>
+<p>&lt;table border="1" summary="Nombre de la tabla"&gt;<br/>
+&lt;caption&gt;Titulo de la tabla&lt;/caption&gt;<br/>
+&lt;thead&gt;(Marca las celdas de la cabecera)<br/>
+&lt;tr&gt;(Primera linea)<br/>
+&lt;th&gt;<b>Lo pone en negrita</b>&lt;/th&gt;*Se ponen tantos como columnas se necesiten<br/>
+&lt;/tr&gt;<br/>
+&lt;/thead&gt;(se cierra)<br/>
+&lt;tfoot&gt;(Esta se pone si se quiere hacer un pie de tabla)&lt;/tfoot&gt;<br/>
+&lt;tbody&gt;(El cuerpo de la tabla)&lt;/tbody&gt;<br/>
+&lt;tr&gt;(Segunda linea)<br/>
+&lt;td&gt;(No lo pone en negrita)&lt;/td&gt;*Se pone la misma cantidad que en la cabecera.<br/>
+&lt;/table&gt;</p>
+<hr/>
+<h3>Otras etiquetas</h3>
+<ul>
+    <li>&lt;tdcolspan="Numero"&gt;Nombre de la celda&lt;/td&gt;</li>
+    <ul>
+        <li>Ocupa el numero de celdas en sentido derecha-izquierda</li>
+    </ul>
+    <li>&lt;td rowspan="Numero"&gt;Nombre de la celda&lt;/td&gt;</li>
+    <ul>
+        <li>Ocupa el numero de celdas en sentido arriba-abajo</li>
+    </ul>
+</ul>
+<hr/>
+<h3>Tablas anidadas(Una dentro de otra)</h3>
+<p>Dentro de una de las etiquetas &lt;td&gt; se tiene que empezar una tabla desde el principio, con &lt;thead&gt;, &lt;tfoot&gt; y &lt;tbody&gt;, cuando se quiere acabar la tabla, se cierra y despues se cierra el &lt;/td&gt;</p>
+
+<h1 id="Formularios">Formularios</h1>
+
+
+
+</body>
+</html>
